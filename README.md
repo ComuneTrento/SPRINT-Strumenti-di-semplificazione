@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/SIMPATICOProject/simpatico-adaptation-engines.svg?branch=master)](https://travis-ci.org/SIMPATICOProject/simpatico-adaptation-engines)
+[![Build Status](https://travis-ci.org/SPRINT-Project/simpatico-adaptation-engines.svg?branch=master)](https://travis-ci.org/SPRINT-Project/simpatico-adaptation-engines)
 
-[![codecov](https://codecov.io/gh/SIMPATICOProject/simpatico-adaptation-engines/branch/master/graph/badge.svg)](https://codecov.io/gh/SIMPATICOProject/simpatico-adaptation-engines)
+[![codecov](https://codecov.io/gh/SPRINT-Project/simpatico-adaptation-engines/branch/master/graph/badge.svg)](https://codecov.io/gh/SPRINT-Project/simpatico-adaptation-engines)
 
 # TAE and WAE API projects
 
