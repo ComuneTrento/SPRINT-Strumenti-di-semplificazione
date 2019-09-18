@@ -1,0 +1,74 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+name: Adaptation Engines
+applicationSuite: SPRINT
+url: 'https://github.com/SPRINT-Project/adaptation-engines'
+releaseDate: '2019-09-09'
+isBasedOn: 'https://github.com/SIMPATICOProject/simpatico-adaptation-engines'
+softwareVersion: 1.1.1
+developmentStatus: stable
+softwareType: standalone/backend
+platforms:
+  - windows
+  - mac
+  - linux
+categories:
+  - content-management
+  - knowledge-management
+  - digital-citizenship
+maintenance:
+  type: none
+  contacts:
+    - name: Marco Pistore
+      email: pistore@fbk.eu
+      affiliation: Fondazione Bruno Kessler
+legal:
+  license: Apache-2.0
+  mainCopyrightOwner: 'Smart Community Lab, FBK'
+  repoOwner: 'Smart Community Lab, FBK'
+intendedAudience:
+  scope:
+    - government
+  countries:
+    - it
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - it
+it:
+  riuso:
+    codiceIPA: c_l378
+  conforme:
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: true
+  piattaforme:
+    spid: true
+description:
+  it:
+    genericName: Text and Workflow Adaptation Engine
+    apiDocumentation: 'https://github.com/SPRINT-Project/adaptation-engines/wiki'
+    shortDescription: >-
+      The project exposes the Text Adaptation Engine API and the Workflow
+      Adaptation Engine Model Repository
+    longDescription: >
+      The project exposes the Text Adaptation Engine API and the Workflow
+      Adaptation Engine Model Repository. The project exposes the Text
+      Adaptation Engine API and the Workflow Adaptation Engine Model Repository.
+      The project exposes the Text Adaptation Engine API and the Workflow
+      Adaptation Engine Model Repository. The project exposes the Text
+      Adaptation Engine API and the Workflow Adaptation Engine Model
+      Repository.The project exposes the Text Adaptation Engine API and the
+      Workflow Adaptation Engine Model Repository.The project exposes the Text
+      Adaptation Engine API and the Workflow Adaptation Engine Model
+      Repository.The project exposes the Text Adaptation Engine API and the
+      Workflow Adaptation Engine Model Repository.The project exposes the Text
+      Adaptation Engine API and the Workflow Adaptation Engine Model
+      Repository.The project exposes the Text Adaptation Engine API and the
+      Workflow Adaptation Engine Model Repository.
+    features:
+      - Text Simplification
+      - Workflow Simplification
+      - Text Complexity Analysis
