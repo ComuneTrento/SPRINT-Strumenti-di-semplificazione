@@ -3,7 +3,7 @@ Upstream-Name: simpatico-adaptation-engines
 Source: https://github.com/SPRINT-Project/simpatico-adaptation-engines
 
 Files: *
-Copyright: 2019 Smart Community Lab, FBK
+Copyright: 2019 Smart Community Lab, FBK and Comune di Trento
 License: Apache-2.0
                                  Apache License
                            Version 2.0, January 2004
@@ -193,7 +193,7 @@ License: Apache-2.0
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright 2019, Smart Community Lab, FBK
+   Copyright 2019, Smart Community Lab, FBK and Comune di Trento
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
