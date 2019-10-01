@@ -17,18 +17,26 @@ platforms:
   - linux
 categories:
   - content-management
-  - knowledge-management
   - digital-citizenship
+inputTypes:
+  - TAE - text and words
+  - WAE - e-service model
+  - AST - text
+outputTypes:
+  - TAE - simplified text and words
+  - AST - text complexity metrics
+usedBy:
+  - Comune di Trento
 maintenance:
-  type: none
+  type: internal
   contacts:
     - name: Marco Pistore
       email: pistore@fbk.eu
       affiliation: Fondazione Bruno Kessler
 legal:
   license: Apache-2.0
-  mainCopyrightOwner: 'Smart Community Lab, FBK'
-  repoOwner: 'Smart Community Lab, FBK'
+  mainCopyrightOwner: 'Smart Community Lab, FBK and Comune di Trento'
+  repoOwner: 'Smart Community Lab, FBK and Comune di Trento'
 intendedAudience:
   scope:
     - government
@@ -44,8 +52,9 @@ it:
   conforme:
     lineeGuidaDesign: false
     misureMinimeSicurezza: true
+    modelloInteroperabilita: true
   piattaforme:
-    spid: true
+    spid: false
 description:
   it:
     genericName: Text and Workflow Adaptation Engine
@@ -54,21 +63,22 @@ description:
       The project exposes the Text Adaptation Engine API and the Workflow
       Adaptation Engine Model Repository
     longDescription: >
-      The project exposes the Text Adaptation Engine API and the Workflow
-      Adaptation Engine Model Repository. The project exposes the Text
-      Adaptation Engine API and the Workflow Adaptation Engine Model Repository.
-      The project exposes the Text Adaptation Engine API and the Workflow
-      Adaptation Engine Model Repository. The project exposes the Text
-      Adaptation Engine API and the Workflow Adaptation Engine Model
-      Repository.The project exposes the Text Adaptation Engine API and the
-      Workflow Adaptation Engine Model Repository.The project exposes the Text
-      Adaptation Engine API and the Workflow Adaptation Engine Model
-      Repository.The project exposes the Text Adaptation Engine API and the
-      Workflow Adaptation Engine Model Repository.The project exposes the Text
-      Adaptation Engine API and the Workflow Adaptation Engine Model
-      Repository.The project exposes the Text Adaptation Engine API and the
-      Workflow Adaptation Engine Model Repository.
+      This module exposes the components of Text Adaptation Engine (TAE),
+      Authoring Supporting Tool (AST). Workflow Adaptation Engine (WAE)
+      developed in the context of the EU SIMPATICO project.
+
+
+      TAE allows you to adapt/modify the text to improve readability and
+      understanding.  AST provides a set of tools to measure the readability
+      level of a descriptive text. WAE is responsible for adapting and
+      simplifying the interaction with e-services. 
+
+
+      The configuration of the module consists of the installation of
+      server-side components and in a front-end configuration as part of the
+      Interactive Front-End (IFE) configuration.
     features:
-      - Text Simplification
-      - Workflow Simplification
-      - Text Complexity Analysis
+      - Text Simplification (TAE)
+      - Workflow Simplification (WAE)
+      - Text Complexity Analysis (AST)
+    documentation: 'https://github.com/SPRINT-Project/adaptation-engines/doc'
