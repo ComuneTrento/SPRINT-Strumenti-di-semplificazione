@@ -93,3 +93,15 @@ cd utils
 git checkout develop
 mvn clean install
 ```
+## Copyright:
+  license: Apache-2.0
+  mainCopyrightOwner: 'Smart Community Lab, FBK and Comune di Trento'
+  repoOwner: 'Smart Community Lab, FBK and Comune di Trento'
+
+## Soggetti incaricati del mantenimento
+  name: Marco Pistore
+  email: pistore@fbk.eu
+  affiliation: Fondazione Bruno Kessler
+
+## Segnalazioni di sicurezza
+Le segnalazioni di sicurezza vanno inviate all'indirizzo pistore@fbk.eu
