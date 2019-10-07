@@ -63,6 +63,10 @@ description:
       The project exposes the Text Adaptation Engine API and the Workflow
       Adaptation Engine Model Repository
     longDescription: >
+      This tool is provided on behalf of the SPRINT project. SPRINT project
+      intends to prepare a kit that enhances and re-uses some components
+      developed by the SIMPATICO project.
+      
       This module exposes the components of Text Adaptation Engine (TAE),
       Authoring Supporting Tool (AST). Workflow Adaptation Engine (WAE)
       developed in the context of the EU SIMPATICO project.
