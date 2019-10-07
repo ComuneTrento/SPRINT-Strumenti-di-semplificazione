@@ -164,26 +164,26 @@ The goal of this step is to model the user interaction: more precisely you have 
         }
 
 #### When a block requires to set a context variable you have to compile the following json fragment: 
-{
-	"id" : "block4",
-	"type" : "BLOCK",
-	"xpath" : "//*[@id=\"modulo\"]/div[4]",
-	"tags" : [],
-	"fields" : ["Tassonomia_FullTime", "Tassonomia_PartTime"],
-	"dependencies" : ["block3"],
-	"completed" : "context['Tassonomia_FullTime']=='FT' || context['Tassonomia_PartTime']=='PT'"
-}
+	{
+		"id" : "block4",
+		"type" : "BLOCK",
+		"xpath" : "//*[@id=\"modulo\"]/div[4]",
+		"tags" : [],
+		"fields" : ["Tassonomia_FullTime", "Tassonomia_PartTime"],
+		"dependencies" : ["block3"],
+		"completed" : "context['Tassonomia_FullTime']=='FT' || context['Tassonomia_PartTime']=='PT'"
+	}
 
 #### When a block depends on a field value you have to compile the following json fragment: 
-{
-	"id" : "block5",
-	"type" : "BLOCK",
-	"xpath" : "//*[@id=\"modulo\"]/table[1]",
-	"tags" : [],
-	"fields" : [],
-	"dependencies" : ["block4"],
-	"condition" :  "context['Tassonomia_FullTime']=='FT'"
-}
+	{
+		"id" : "block5",
+		"type" : "BLOCK",
+		"xpath" : "//*[@id=\"modulo\"]/table[1]",
+		"tags" : [],
+		"fields" : [],
+		"dependencies" : ["block4"],
+		"condition" :  "context['Tassonomia_FullTime']=='FT'"
+	}
 
 **NOTE**: the block above depends on “block 12” and on field “Tassonomia_FullTime”; it means that it will presented to the user after the completion of “block 12” and only if the field “Tassonomia_FullTime” has value “FT”.
 
