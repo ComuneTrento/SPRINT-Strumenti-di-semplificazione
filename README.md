@@ -15,7 +15,7 @@ L'Adaptation Engine, che fa parte della famiglia di tools messa in riuso, e' il 
 
 Questa breve note intende evidenziare le funzionalita' messe a disposizione dal tool lato utente finale. La descrizione completa e tecnica di utilizzo dei diversi componenti si trova nel documento [di progetto](dic/BP-OR-AP-06_v1.0.pdf)
 
-## Waokflow Adaptation Engine (WAE)
+## Workflow Adaptation Engine (WAE)
 
 Il Workflow Adaptation Engine è responsabile di adattare e semplificare l’interazione con gli e-service. Una volta individuati i diversi blocchi interattivi dell’e-service, consente di modificarne e semplificarne il flusso di compilazione. Il WAE permette di: 
  * suddividere l'e-service (template HTML) in blocchi di interazione e presentare gli stessi all'utente in base alle dipendenze tra essi ed allo stato della compilazione (vedi (1) in figura).
@@ -76,11 +76,13 @@ Il repository è organizzato con una struttura di directory tipica dei progetti 
 
 
 ## Copyright:
+
   license: Apache-2.0
   mainCopyrightOwner: 'Smart Community Lab, FBK and Comune di Trento'
   repoOwner: 'Smart Community Lab, FBK and Comune di Trento'
 
 ## Soggetti incaricati del mantenimento
+
   name: Marco Pistore
   email: pistore@fbk.eu
   affiliation: Fondazione Bruno Kessler
@@ -90,8 +92,8 @@ Le segnalazioni di sicurezza vanno inviate all'indirizzo pistore@fbk.eu
 
 ## Prerequisiti e dipendenze
 
-Il server TAE dipende dai tool [Tint](http://tint.fbk.eu/) e [FBK utils](https://github.com/fbk/utils).
-TAE e WAE sono forniscono delle API e dei servizi di back-end che devono essere richiamati in modo nativo da un sistema ospite (es. portale dei servizi della PA). Per semplificare l'integrazione e' stato sviluppato l'Interactive Front-End (IFE). Un versione verticalizzata dell'IFE e' stata rilasciata per il progetto SPRINT ed e' presente nel repository del Comune di Trento.
+* Il server TAE dipende dai tool [Tint](http://tint.fbk.eu/) e [FBK utils](https://github.com/fbk/utils).
+* TAE e WAE forniscono delle API e dei servizi di back-end che devono essere richiamati in modo nativo dal sistema ospite (es. portale dei servizi della PA) che integrarne le funzionalita' evoluto. Per semplificare l'integrazione e' stato sviluppato l'Interactive Front-End (IFE), di cui una versione verticalizzata per il progetto SPRINT e' presente nel repository del Comune di Trento.
 
 
 # Technical Documentation
