@@ -47,10 +47,28 @@ L’ Authoring Supporting Tool mette a disposizione un insieme di strumenti per 
 In Particolare AST fornisce agli operatori della PA l'analisi e il supporto decisionale in merito al contenuto del servizio elettronico. In particolare, questo include
  * analisi dei testi descrittivi del servizio elettronico e della loro complessità utilizzando la funzionalità TAE;
  * identificazione degli elementi critici del testo e possibili semplificazioni lessicali e sintattiche.
-
- Un esempio di risultato dell'analisi dei un testo e' presentato nella figura seguente.
+ 
+Un esempio di risultato dell'analisi dei un testo e' presentato nella figura seguente.
 
   ![Risultato analisi AST](doc/ast.2.png)
+
+Sul lato sinistro della figura, si possono vedere delle semplici metriche generali del testo (Numero di periodi, Parole e Parole che danno contenuto al testo) ed il testo originale diviso per frasi. Ogni frase è arricchita evidenziando in grigio le parole difficili ed in blu le parole difficili per cui sono stati trovati dei sinonimi. Nel box in giallo associato ad ogni frase sono riportate delle metriche (lunghezza, numero di frasi, densità lessicale, etc.) il cui valore è rappresentato con un colore di sfondo verde, arancione e rosso. I colori arancio e rosso evidenziano che il testo dovrebbe essere semplificato. Passando sulle diverse metriche vengono riportati dei suggerimenti che aiutano il redattore nella semplificazione del testo (es. la frase è troppo lunga, conviene spezzarla).  
+
+Sul lato destro, in due sezioni distinte, sono riportate le metriche e le statistiche di leggibilità del documento. Ogni metrica e statistica misura caratteristiche precise del testo, nel caso il valore calcolato non rispetti soglie definite il sistema proposte dei suggerimenti su delle azioni da prendere per semplificare il testo.
+
+Le statistiche valutate sono le seguenti: 
+Indice gulpease: indice di leggibilità che tiene in considerazione degli aspett sintattici relativi alla lunghezza delle frasi e delle parole.
+ * Level 1: mostra quanto sia difficile la comprensione del testo per un utente che conosca solo le 500 parole più diffuse della lingua italiana.
+ * Level 2: mostra quanto sia difficile la comprensione del testo per un utente che conosca solo le 2.500 parole più diffuse della lingua italiana.
+ * Level 3: mostra quanto sia difficile la comprensione del testo per un utente che conosca solo le 5.000 parole più diffuse della lingua italiana.
+
+Le metriche valutate sono le seguenti:
+ * Numero medio di frasi per ciascun periodo: 
+ * Rapporto tra proposizioni subordinate e coordinate: 
+ * Ricchezza semantica
+ * Densità lessicale
+ * Numero di parole per frase
+ * Profondità media dell'albero sintattico
 
 Questo tool è particolarmente importante come strumento di supporto alla scrittura delle descrizioni dei servizi online. 
 La descrizione completa delle metriche usate è raggiungibile all’indirizzo:
