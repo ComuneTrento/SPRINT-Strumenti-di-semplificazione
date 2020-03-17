@@ -19,12 +19,11 @@ categories:
   - content-management
   - digital-citizenship
 inputTypes:
-  - TAE - text and words
-  - WAE - e-service model
-  - AST - text
+  - application/json
+  - application/json
+  - text/plain
 outputTypes:
-  - TAE - simplified text and words
-  - AST - text complexity metrics
+  - application/json
 usedBy:
   - Comune di Trento
 maintenance:
@@ -85,4 +84,4 @@ description:
       - Text Simplification (TAE)
       - Workflow Simplification (WAE)
       - Text Complexity Analysis (AST)
-    documentation: 'https://github.com/SPRINT-Project/adaptation-engines/doc'
+    documentation: 'https://github.com/ComuneTrento/SPRINT-Strumenti-di-semplificazione/tree/master/doc'
