@@ -5,7 +5,7 @@
 publiccodeYmlVersion: '0.2'
 name: Adaptation Engines
 applicationSuite: SPRINT
-url: 'https://github.com/SPRINT-Project/adaptation-engines'
+url: 'https://github.com/ComuneTrento/SPRINT-Strumenti-di-semplificazione'
 releaseDate: '2019-09-09'
 isBasedOn: 'https://github.com/SIMPATICOProject/simpatico-adaptation-engines'
 softwareVersion: 1.1.1
@@ -19,12 +19,9 @@ categories:
   - content-management
   - digital-citizenship
 inputTypes:
-  - TAE - text and words
-  - WAE - e-service model
-  - AST - text
+  - text/plain
 outputTypes:
-  - TAE - simplified text and words
-  - AST - text complexity metrics
+  - text/plain
 usedBy:
   - Comune di Trento
 maintenance:
@@ -85,4 +82,4 @@ description:
       - Text Simplification (TAE)
       - Workflow Simplification (WAE)
       - Text Complexity Analysis (AST)
-    documentation: 'https://github.com/SPRINT-Project/adaptation-engines/doc'
+    documentation: 'https://github.com/ComuneTrento/SPRINT-adaptation-engines/doc/documentation.md'
