@@ -3,21 +3,83 @@
 # More info at https://github.com/italia/publiccode.yml
 
 publiccodeYmlVersion: '0.2'
-name: Adaptation Engines
 applicationSuite: SPRINT
-url: 'https://github.com/ComuneTrento/SPRINT-Strumenti-di-semplificazione'
-releaseDate: '2019-09-09'
-isBasedOn: 'https://github.com/SIMPATICOProject/simpatico-adaptation-engines'
-softwareVersion: 1.1.1
+categories:
+  - content-management
+  - digital-citizenship
+description:
+  it:
+    apiDocumentation: 'https://github.com/SPRINT-Project/adaptation-engines/wiki'
+    documentation: >-
+      https://github.com/ComuneTrento/SPRINT-Strumenti-di-semplificazione/tree/master/doc
+    features:
+      - Text Simplification (TAE)
+      - Workflow Simplification (WAE)
+      - Text Complexity Analysis (AST)
+    genericName: Text and Workflow Adaptation Engine
+    longDescription: >
+      Gli Strumenti di Semplificazione fanno parte del progetto SPRINT che
+      intende valorizzare alcuni risultati del progetto SIMPATICO
+      (https://www.simpatico-project.eu/) volti a migliorare e semplificare
+      l’interazione tra cittadino e servizi online. 
+
+
+      L’obiettivo di SPRINT è di creare un kit che permetta una facile
+      integrazione di alcune funzioni avanzate di SIMPATICO in un generico
+      portale della Pubblica Amministrazione e/o in un servizio online. 
+
+
+      Gli Strumenti di Semplificazione mettono a disposizione le fuzioni
+      avanzate di adattamento del testo, di adattamento del workflow e di
+      supporto alla misura della complessita' di un testo. 
+    shortDescription: Engine di semplificazione dei testi e del workflow per i servizio online
 developmentStatus: stable
-softwareType: standalone/backend
+intendedAudience:
+  countries:
+    - it
+  scope:
+    - government
+isBasedOn:
+  - 'https://github.com/SIMPATICOProject/simpatico-adaptation-engines'
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: true
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+  riuso:
+    codiceIPA: c_l378
+legal:
+  license: Apache-2.0
+  mainCopyrightOwner: 'Smart Community Lab, FBK and Comune di Trento'
+  repoOwner: 'Smart Community Lab, FBK and Comune di Trento'
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: true
+maintenance:
+  contacts:
+    - affiliation: Fondazione Bruno Kessler
+      email: pistore@fbk.eu
+      name: Marco Pistore
+  type: internal
+name: Strumenti di Semplificazione
 platforms:
   - windows
   - mac
   - linux
-categories:
-  - content-management
-  - digital-citizenship
+releaseDate: '2019-09-09'
+softwareType: standalone/backend
+softwareVersion: 1.1.1
+url: 'https://github.com/ComuneTrento/SPRINT-Strumenti-di-semplificazione'
+usedBy:
+  - Comune di Trento
 inputTypes:
   - application/json
   - application/json
@@ -25,65 +87,3 @@ inputTypes:
 outputTypes:
   - application/json
   - text/plain
-usedBy:
-  - Comune di Trento
-maintenance:
-  type: internal
-  contacts:
-    - name: Marco Pistore
-      email: pistore@fbk.eu
-      affiliation: Fondazione Bruno Kessler
-legal:
-  license: Apache-2.0
-  mainCopyrightOwner: 'Smart Community Lab, FBK and Comune di Trento'
-  repoOwner: 'Smart Community Lab, FBK and Comune di Trento'
-intendedAudience:
-  scope:
-    - government
-  countries:
-    - it
-localisation:
-  localisationReady: true
-  availableLanguages:
-    - it
-it:
-  riuso:
-    codiceIPA: c_l378
-  conforme:
-    lineeGuidaDesign: false
-    misureMinimeSicurezza: true
-    modelloInteroperabilita: true
-  piattaforme:
-    spid: false
-description:
-  it:
-    genericName: Text and Workflow Adaptation Engine
-    apiDocumentation: 'https://github.com/SPRINT-Project/adaptation-engines/wiki'
-    shortDescription: >-
-      The project exposes the Text Adaptation Engine API and the Workflow
-      Adaptation Engine Model Repository
-    longDescription: >
-      This tool is provided on behalf of the SPRINT project. SPRINT project
-      intends to prepare a kit that enhances and re-uses some components
-      developed by the SIMPATICO project.
-      
-      This module exposes the components of Text Adaptation Engine (TAE),
-      Authoring Supporting Tool (AST). Workflow Adaptation Engine (WAE)
-      developed in the context of the EU SIMPATICO project.
-
-
-      TAE allows you to adapt/modify the text to improve readability and
-      understanding.  AST provides a set of tools to measure the readability
-      level of a descriptive text. WAE is responsible for adapting and
-      simplifying the interaction with e-services. 
-
-
-      The configuration of the module consists of the installation of
-      server-side components and in a front-end configuration as part of the
-      Interactive Front-End (IFE) configuration.
-    features:
-      - Text Simplification (TAE)
-      - Workflow Simplification (WAE)
-      - Text Complexity Analysis (AST)
-    documentation: 'https://github.com/ComuneTrento/SPRINT-Strumenti-di-semplificazione/tree/master/doc'
-
