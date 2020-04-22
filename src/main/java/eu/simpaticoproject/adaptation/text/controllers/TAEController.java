@@ -15,6 +15,21 @@
  ******************************************************************************/
 package eu.simpaticoproject.adaptation.text.controllers;
 
+import javax.naming.OperationNotSupportedException;
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+
 import eu.simpaticoproject.adaptation.text.Handler;
 import eu.simpaticoproject.adaptation.text.model.PageTextModel;
 import eu.simpaticoproject.adaptation.text.repositories.TextModelRepository;
@@ -22,19 +37,11 @@ import eu.simpaticoproject.adaptation.text.tae.SimpaticoInput;
 import eu.simpaticoproject.adaptation.text.tae.SimpaticoOutput;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
-
-import javax.naming.OperationNotSupportedException;
-import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author raman
  */
-@Controller
+@RestController
 public class TAEController {
 
 	@Autowired
